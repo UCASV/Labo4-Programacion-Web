@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Final</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <body>
+    <header>
+        <h1>Agenda Semanal</h1>
+        <p>Introduce algun dia de la semana</p>
+    </header>
+
+    <main>
+        <div class="input-group">
+            <label for="diaInput">Dia de la semana:</label>
+            <input type="text" id="diaInput" placeholder="lunes" required>
+        </div>
+
+        <button onclick="mostrarActividad()">Consultar Actividad</button>
+
+        <div id="resultado" class="resultado-box">
+            <p>Aqui se mostrara tu actividad y recordatorio.</p>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
